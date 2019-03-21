@@ -17,7 +17,8 @@
                 </Picker.Items>
             </Picker>
         
-        <Label1
+        <Label x:Name="Label1" Invisible="False"
+               Text="Não foi possível realizar a matrícula." Textcolor="Red"
 
 
 
