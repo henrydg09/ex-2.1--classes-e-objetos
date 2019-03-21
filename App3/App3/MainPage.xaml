@@ -3,8 +3,31 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:App3"
              x:Class="App3.MainPage">
+<StackLayout>
+    <Entry x:Name="Entry 1" Placemolder="Matrícula"
+    <Entry x:Name="Entry 2" Keyboard="Nuemeric" Placemolder="Período" />
 
-	<Label Text="Welcome to Xamarin.Forms!" 
+            <Picker x:name="Picker" Title="Disciplina">
+
+                <Picker.Items>
+                    <x:String>1- Cálculo</x:String>
+                    <x:String>2- Introdução a Engenharia</x:String>
+                    <x:String>3- Cálculo 2</x:String>
+                    <x:String>4- Projetos de Engenharia</x:String>
+                </Picker.Items>
+            </Picker>
+        
+        <Label1
+
+
+
+
+
+
+
+
+
+            <Label Text="Welcome to Xamarin.Forms!" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
 
