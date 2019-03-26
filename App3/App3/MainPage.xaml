@@ -4,8 +4,8 @@
              xmlns:local="clr-namespace:App3"
              x:Class="App3.MainPage">
 <StackLayout>
-    <Entry x:Name="Entry 1" Placemolder="Matrícula"
-    <Entry x:Name="Entry 2" Keyboard="Nuemeric" Placemolder="Período" />
+    <Entry x:Name="Entry 1" Placeholder="Matrícula"
+    <Entry x:Name="Entry 2" Keyboard="Nuemeric" Placeholder="Período" />
 
             <Picker x:name="Picker" Title="Disciplina">
 
@@ -16,20 +16,20 @@
                     <x:String>4- Projetos de Engenharia</x:String>
                 </Picker.Items>
             </Picker>
-        
-        <Label x:Name="Label1" Invisible="False"
-               Text="Não foi possível realizar a matrícula." Textcolor="Red"
+
+            
+                <Label x:Name="Label2" Isvisible="False"
+               Text="Matrícula realizada." Textcolor="DarkGreen"/>
+
+            <Label x:Name="Label2" Isvisible="False"
+               Text="Não foi possível realizar a matrícula." Textcolor="Red"/>
+
+            <Button x:name="Button" Text="Matricular"
+                VerticalOptions="EndAndExpand" 
+                HorizontalOptions="Center" 
+                Clicked = "OnButtonClicked"/>
 
 
-
-
-
-
-
-
-
-            <Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+            <StackLayout>
 
 </ContentPage>
