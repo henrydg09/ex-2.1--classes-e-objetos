@@ -7,8 +7,8 @@ using Xamarin.Forms;
 
 namespace App3
 {
-	public partial class MainPage : ContentPage
-	{
+    public partial class MainPage : ContentPage
+    {
         public MainPage()
         {
             InitializeComponent();
@@ -31,4 +31,6 @@ namespace App3
                 {
                     Label2.IsVisible = true;
                 }
-             
+            }
+        }
+    }
