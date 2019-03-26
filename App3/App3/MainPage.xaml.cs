@@ -7,8 +7,8 @@ using Xamarin.Forms;
 
 namespace App3
 {
-	public partial class MainPage : ContentPage
-	{
+    public partial class MainPage : ContentPage
+    {
         public MainPage()
         {
             InitializeComponent();
@@ -24,10 +24,20 @@ namespace App3
                     {
                         int periodo = int.Parse(Entry2.text);
                         int semestre = Picker.SelectedIndex + 1;
-                        if periodo == semestre
+                        if periodo == semestre;
                     {
                             Label1.IsVisible = true;
                         } else
                         {
                             Label2.IsVisible = true;
                         }
+                    } else
+                    {
+                        Label2.IsVisible = true;
+                    }
+                }
+            }
+        }
+    }
+}
+  
